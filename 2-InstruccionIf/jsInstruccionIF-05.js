@@ -1,6 +1,9 @@
-function mostrar()
-{
-	//tomo la edad  
-	alert("ok");
+function mostrar() {
+  //tomo la edad  txtIdEdad
+  let ingresarEdad;
+  ingresarEdad = document.getElementById("txtIdEdad").value;
 
-}//FIN DE LA FUNCIÓN
+  if (!(ingresarEdad >= 13 && ingresarEdad <= 18)) {
+    alert("no sos adolescente");
+  }
+} //FIN DE LA FUNCIÓN
